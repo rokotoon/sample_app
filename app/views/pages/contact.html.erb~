@@ -2,9 +2,10 @@
 <html>
   <head>
     <title>Ruby on Rails Tutorial Sample App | <%= @title %></title>
-    <%= csrf_meta_tag %>
   </head>
   <body>
-    <%= yield %>
+    <h1>Contact me</h1>
+    <p>ICQ: 20-666-06</p>
+    <p><a href="mailto:rokotoon@gmail.com">e-mail: rokotoon@gmmail.com</a></p>
   </body>
 </html>
